@@ -63,16 +63,24 @@
   </style>
 </head>
 
-  <body>
-  <h1>Fancy Tooltip</h1>
-  <p>I wanted to make a (relatively) simple rich tooltip. When you hover over a <code>.hover-object</code>, the <code>.tooltip</code> should become visible. Said tooltip should allow rich (HTML) content, and should act like the cursor has been expanded to show the contents of the tooltip. </p>
-  <p>In this example I've used FontAwesome for icons and Bootstrap for styles, but you could replace those with your own content if you want. </p>
-  
-  <div class="hover-object">
-    <i class="fa-solid fa-toolbox"></i> Tools
-    <div class="tooltip border shadow">
-      <p class="h5"><i class="fa-solid fa-cloud-arrow-down"></i> = Landing Page</p>
-      <p class="h5"><i class="fa-solid fa-signature"></i> = Email Signature</p>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h1>Fancy Tooltip</h1>
+        
+        <p>I wanted to make a (relatively) simple rich tooltip. When you hover over a <code>.hover-object</code>, the <code>.tooltip</code> should become visible. Said tooltip should allow rich (HTML) content, and should act like the cursor has been expanded to show the contents of the tooltip. </p>
+        <p>In this example I've used FontAwesome for icons and Bootstrap for styles, but you could replace those with your own content if you want. </p>
+        
+        <div class="hover-object">
+          <i class="fa-solid fa-toolbox"></i> Tools
+          <div class="tooltip border shadow">
+            <p class="h5"><i class="fa-solid fa-cloud-arrow-down"></i> = Landing Page</p>
+            <p class="h5"><i class="fa-solid fa-signature"></i> = Email Signature</p>
+           </div>
+        </div>
+        
+      </div>
     </div>
   </div>
 
